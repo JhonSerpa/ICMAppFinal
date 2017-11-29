@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="icm.ua.pt.icm_app.MuseumHistoryFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Victoria and Albert Museum"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="12dp"/>
+
+        <ImageView
+            android:id="@+id/image_detail"
+            android:layout_width="match_parent"
+            android:layout_height="225dp"
+            android:scaleType="fitXY"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/museumvic"/>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/art_description_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:textColor="@color/white"
+                android:text="The Victoria and Albert Museum, London, is the world's largest museum of decorative arts and design, housing a permanent collection of over 4.5 million objects.It was founded in 1852 and named after Queen Victoria and Prince Albert. The museum owns the world's largest collection of post-classical sculpture, with the holdings of Italian Renaissance items being the largest outside Italy. The departments of Asia include art from South Asia, China, Japan,Korea and the Islamic world. The East Asian collections are among the best in Europe, with particular strengths in ceramics and metalwork, while the Islamic collection is amongst the largest in the Western world. Overall, it is one of the largest museums in the world.
+"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</FrameLayout>

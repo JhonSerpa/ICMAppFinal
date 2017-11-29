@@ -1,0 +1,74 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="icm.ua.pt.icm_app.FavouritesFragment">
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/linear_lay">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:id="@+id/txtFav1"
+                android:text=""
+                android:textSize="69px"
+                android:background="@color/colorPrimaryDark"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:id="@+id/txtFav2"
+                android:text="Mona Lisa"
+                android:textSize="69px"
+                android:visibility="invisible"
+                android:background="@color/colorPrimaryDark"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimaryDark"
+                android:id="@+id/txtFav3"
+                android:text="Mona Lisa"
+                android:textSize="69px"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:id="@+id/txtFav4"
+                android:background="@color/colorPrimaryDark"
+                android:text="Mona Lisa"
+                android:textSize="69px"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"/>
+
+        </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

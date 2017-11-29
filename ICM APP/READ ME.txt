@@ -1,0 +1,8 @@
+APK LOCATION BEACON: Beacon/APK
+APK LOCATION FIREBASE AND BEACON: Firebase and beacon/APK
+
+Devido ao problema do dispostitivo ter a versao android antiga houve 
+a necessidade de separar em dois projetos:
+
+File Beacon: Contem o projeto apresentado na 1ª Demo e mostra o funcionamento do beacon
+File Firebase and beacon: Contem a app final com inclusão da firebase database.
